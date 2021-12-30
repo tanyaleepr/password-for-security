@@ -8,6 +8,36 @@ var lowerCase = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm'
 var special = ['@', '%', '+', '/', "'", '!', '#', '$', '^', '?', ':', ',', ')', '(', '}', '{', ']', '[', '~', '-', '_', '.'
 ];
 
+// Created function for users to have options in choosing character options to ensure minimum requirements.
+function questions() {
+  var isValid = false;
+  do {
+    var length = prompt("Choose password length between 8 and 128 characters");
+    var askNumbers = confirm("Do you want your password to include numbers?");
+    var askLowerCase = confirm("Do you want your password to include lower case letters?");
+    var askUpperCase = confirm("Do you want your password to include upper case letters?");
+    var askSpecial = confirm("Do you want your password to include special characters?");
+    var responses = {
+      length: length,
+      askNumbers: askNumbers,
+      askLowerCase: askLowerCase,
+      askUpperCase: askUpperCase,
+      askSpecial: askSpecial
+    } 
+    if((length < 8)||(length > 128))
+    alert("Choose number between 8 and 128");
+    else if((!askNumbers)&&(!askLowerCase)&&(!askUpperCase)&&(!askSpecial))
+    alert("Must choose at least one type.");
+    else
+    isValid = true;
+
+  } while(!isValid);
+  return responses;
+}
+
+
+
+
 // Get references to the #generate element
 var generateBtn = document.querySelector("#generate");
 
