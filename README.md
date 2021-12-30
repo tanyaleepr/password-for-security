@@ -1,30 +1,38 @@
-# APassword Generator for Security
+# Password Generator for Security
 First JavaScript challenge.
 
 ## Goal for assignment
 
 The customer frequently has access to classified information and want to maintain a strong safety net. They want an application that creates a password at random depending on a set of criteria factors that provide a high level of security.
 
+## Built With
+* HTML
+* CSS
+* JavaScript 
 ## Details
+* Users will be able to click the button to generate a strong and secured password
+* After the user clicked the bottom, the box will prompt few questions 
+regarding a criteria and options for selecting a password. Those are:
 
-1. User will click the button to generate a password
-
-2. After clicking the user will be prompted with questions 
-regarding a. criteria & b. options for password:
-- **Criteria:** 
+**Criteria:** 
 - Must be between 8 and 128 characters long
 - Must choose at least 1 of the character options:
   - numbers 
   - lower case letter 
   - upper case letter 
   - and/or special character
-- **Options:**
-- User chooses length of PW within the criteria
-- User can choose which/some/or all of the PW character choices:
-    (must include at least 1 option per criteria above)
+
+AND
+
+**Options:**
+- User chooses length of passwrod within the criteria mentioned above
+- User can choose which of character available can choose (additionally to the main criteria):
   - numbers 
   - lower case letter 
   - upper case letter 
   - special character
 
-3. Upon answering the prompts the password will generate and appear in the box. 
+## Results
+ Upon answering the prompts the password will generate and appear in the box. 
+
+ ## Screenshot of the password generator:
