@@ -36,3 +36,4 @@ AND
  Upon answering the prompts the password will generate and appear in the box. 
 
  ## Screenshot of the password generator:
+![screencapture-file-C-Users-tanii-OneDrive-Desktop-projects-password-generator-index-html-2021-12-30-11_42_24](https://user-images.githubusercontent.com/92898110/147775844-d877ae75-82fb-4358-9804-0dbaf88dc2c4.png)
