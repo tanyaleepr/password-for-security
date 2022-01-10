@@ -1,3 +1,4 @@
+/*style for password generator */
 *,
 *::before,
 *::after {
@@ -23,6 +24,7 @@ body {
   padding-right: 20px;
 }
 
+/* style for header section */
 header {
   text-align: center;
   padding: 20px;
@@ -30,6 +32,7 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+/* style for the card section in the generator */
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -72,6 +75,7 @@ header {
   clear: both;
 }
 
+/* style for the button */
 .btn {
   border: none;
   background-color: hsl(360, 91%, 36%);
@@ -96,7 +100,7 @@ button[disabled] {
 .float-right {
   float: right;
 }
-
+/* style for the password input */
 #password {
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -118,6 +122,7 @@ button[disabled] {
   overflow: hidden;
 }
 
+/* media query to add in the button and password boxes for flexibility in visualization */
 @media (max-width: 690px) {
   .btn {
     font-size: 1rem;
