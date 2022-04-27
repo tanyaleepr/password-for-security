@@ -1,7 +1,7 @@
 # Password Generator for Security
-First JavaScript challenge.
 
-## Goal for assignment
+
+## Description
 
 The customer frequently has access to classified information and want to maintain a strong safety net. They want an application that creates a password at random depending on a set of criteria factors that provide a high level of security.
 
